@@ -204,6 +204,7 @@ body {
 
 .flex_section {
     width: 4rem;
+    height: 100vh;
     overflow: hidden;
     overflow-y: scroll;
 }
@@ -712,8 +713,6 @@ body {
 
 
 
-
-
 @media only screen and (max-width: 1080px) {
     .flex_section {
         width: 0;
@@ -744,5 +743,9 @@ body {
 
     .setting_tab {
         display: block;
+    }
+
+    .invite-users-aside {
+        width: 95%;
     }
 }
