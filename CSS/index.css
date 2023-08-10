@@ -1130,7 +1130,7 @@ div.validity > div:last-child.invalid {
     }
 
     .overall_image_section {
-        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(/images/mailchimp-04X1Yp9hNH8-unsplash-min-min.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../images/mailchimp-04X1Yp9hNH8-unsplash-min-min.jpg);
     }
 }
 
