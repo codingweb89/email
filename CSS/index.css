@@ -158,7 +158,7 @@ header.first_header > nav > ul > li:hover::before {
     width: 100%;
     height: 100vh;
     position: relative;
-    background-image: url(images/mailchimp-04X1Yp9hNH8-unsplash-min-min.jpg);
+    background-image: url(../images/mailchimp-04X1Yp9hNH8-unsplash-min-min.jpg);
     background-position: center;
     background-size: cover;
 }
