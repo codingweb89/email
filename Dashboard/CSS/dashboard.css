@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --background: lawngreen;
+    --transparent-blue: rgba(255, 255, 255, .4);
+    --dark-blue: rgb(1, 1, 18);
+    --blue_usage: rgb(24, 57, 127);
+    --blue_usage_2: #18397F;
+}
+
+html {
+    font-family: "poppins";
+    /* font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased; */
+    font-family: "poppins";
+    background: #f2f2f2;
+    font-weight: medium;
+    font-size: 0.9rem;
+}
+
+.text-gray-brand-500 {
+    --tw-text-opacity: 1;
+    color: rgba(100,108,154,var(--tw-text-opacity));
+}
+
+.bg-gray-brand-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(36,41,57,var(--tw-bg-opacity));
+}
+
+.root-color {
+    color: var(--blue_usage);
+}
+
+.root-bg {
+    background: var(--blue_usage);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.overflow-y-auto {
+    overflow-y: auto;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.text-grey {
+    --tw-text-opacity: 1;
+    color: rgba(107,114,128,var(--tw-text-opacity))
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.top-50 {
+    top: 50%;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.translate-50 {
+    transform: translate(-50%, -50%);
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.f2-bg {
+    background: #f2f2f2;
+}
+
+.white-color {
+    color: #fff;
+}
+
+.black-bg {
+    background: #262626;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-align {
+    align-items: center;
+}
+
+.flex-justify {
+    justify-content: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-gap {
+    gap: 10px;
+}
+
+.flex-gap-2x {
+    gap: 20px;
+}
+
+.flex-gap-3x {
+    gap: 30px;
+}
+
+.flex-gap-4x {
+    gap: 40px;
+}
+
+.flex-gap-5x {
+    gap: 50px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height-vh {
+    height: 100vh;
+}
+
+.black-color {
+    color: #000;
+}
+
+.width-2em {
+    width: 2em;
+}
+
+.none {
+    display: none;
+}
+
+.width-200 {
+    width: 200px;
+}
+
+.width-210 {
+    width: 210px;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.width-500 {
+    width: 500px;
+}
+
+.width-75-percent {
+    width: 75%;
+}
+
+.width-fit-content {
+    width: fit-content;
+}
+
+.max-width {
+    width: 1024px;
+}
+
+.padding-header {
+    padding: 15px 30px;
+}
+
+.flex_section {
+    width: 4rem;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.flex_section.increase4rem {
+    width: 20em;
+    border: 1px solid lightgrey;
+}
+
+.flex_section div.not-margin {
+    margin: 0;
+}
+
+.flex_section div.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.margin-right-2x {
+    margin-right: 20px;
+}
+
+.margin-right-3x {
+    margin-right: 40px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.margin-top-2x {
+    margin-top: 20px;
+}
+
+.margin-top-3x {
+    margin-top: 40px;
+}
+
+.margin-top-4x {
+    margin-top: 50px;
+}
+
+.margin-top-5x {
+    margin-top: 100px;
+}
+
+.margin-bottom {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-2x {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-3x {
+    margin-bottom: 40px;
+}
+
+.margin-bottom-4x {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-5x {
+    margin-bottom: 100px;
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-left-1x {
+    margin-left: 5px;
+}
+
+.margin-left-2x {
+    margin-left: 20px;
+}
+
+.margin-left-3x {
+    margin-left: 40px;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.special-margin {
+    margin: 50px 0;
+}
+
+.negative-margin-left {
+    margin-left: -5px;
+}
+
+.negative-margin-left-2x {
+    margin-left: -10px;
+}
+
+.negative-margin-left-3x {
+    margin-left: -15px;
+}
+
+.negative-margin-left-4x {
+    margin-left: -20px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.padding-2x {
+    padding: 10px;
+}
+
+.padding-3x {
+    padding: 20px;
+}
+
+.padding-4x {
+    padding: 50px;
+}
+
+.padding-5x {
+    padding: 100px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.padding {
+    padding: 5px;
+}
+
+.border-radius {
+    border-radius: 3px;
+}
+
+.border-radius-2x {
+    border-radius: 5px;
+}
+
+.border-radius-3x {
+    border-radius: 20px;
+}
+
+.border-radius-4x {
+    border-radius: 50px;
+}
+
+.border-radius-5x {
+    border-radius: 100px;
+}
+
+.border-radius-percent {
+    border-radius: 50%;
+}
+
+.border-right {
+    border-right: 1px solid lightgrey;
+    box-shadow: 0 0 2px 1px #000;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+.border-none {
+    border: none;
+}
+
+.border-grey {
+    border: 1px solid lightgrey;
+}
+
+.transparent-bg {
+    background: transparent;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.opacity-2x {
+    opacity: .2;
+}
+
+.opacity-3x {
+    opacity: .5;
+}
+
+.opacity-4x {
+    opacity: .7;
+}
+
+.opacity-5x {
+    opacity: 1;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.list-style-none {
+    list-style: none;
+    width: 100%;
+}
+
+.list-style-none > li {
+    margin: 10px 0;
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.list-style-none > li:hover {
+    background: rgba(4, 4, 246, .1);
+}
+
+.list-style-none > li:hover > a > img {
+    opacity: 1;
+    filter: invert(16%) sepia(66%) saturate(2003%) hue-rotate(207deg) brightness(95%) contrast(95%);
+}
+
+.list-style-none > li > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--blue_usage);
+    width: 100%;
+}
+
+.list-style-none > li > a > img {
+    width: 20px;
+    opacity: 0.5;
+    margin-right: 10px;
+    filter: invert(16%) sepia(66%) saturate(2003%) hue-rotate(207deg) brightness(95%) contrast(95%);
+}
+
+.list-style-none > li > a > span {
+    color: blue;
+    font-size: 0.9em;
+}
+
+.side_bar {
+    background: #f2f2f2;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.red-bg {
+    background: red;
+}
+
+.blue-bg {
+    background: blue;
+}
+
+.flex_section > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.add-user-div {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.add-user-div > a {
+    opacity: .7;
+}
+
+.float-right {
+    float: right;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.scale-0 {
+    transform: scale(0);
+}
+
+.display-none {
+    display: none;
+}
+
+.transition-0-3s {
+    transition: 0.3s;
+}
+
+.pointer-event-none {
+    pointer-events: none;
+}
+
+
+/* .toggle_width {
+    border: 1px solid red;
+    width: 100%;
+}
+
+.toggle_width > span {
+    width: 100%;
+} */
+
+.filter-invert {
+    filter: invert(100%);
+}
+
+.base-width {
+    width: 25px;
+}
+
+/* .flex_section > div.not-padding {
+    padding: 0;
+    background: red;
+} */
+
+.flex_section > div.flex_div {
+    width: 100%;
+}
+
+.flex_section > div:hover {
+    background:rgba(4, 4, 246, .1);
+    cursor: pointer;
+}
+
+.flex_section > div:hover > div > img {
+    opacity: 1;
+}
+
+.flex_section > div:hover > div > span {
+    color: var(--blue_usage);
+}
+
+.flex_section > div > div > img {
+    width: 25px;
+    filter: invert(16%) sepia(66%) saturate(2003%) hue-rotate(207deg) brightness(95%) contrast(95%);
+}
+
+.flex_section > div > div > img.icon-style {
+    margin-right: 15px;
+}
+
+/* .flex_section > div > div > span {
+    margin-right: 70px;
+} */
+
+.flex_section > div > div:last-child {
+    width: 0;
+    overflow: hidden;
+}
+
+.flex_section .flex-div_execept-11 {
+    background: none;
+    padding: 0;
+    width: auto;
+    height: auto;
+    justify-content: start;
+    color: grey;
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.flex_section .flex-div_execept-11:hover {
+    background: none;
+    cursor: default;
+}
+
+.flex_section .none {
+    display: none;
+}
+
+
+.flex_section > div > div:last-child.width_increase {
+    width: 100%;
+}
+
+.flex-between-prop:hover {
+    opacity: 1;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.bell-notification {
+    position: absolute;
+    top: -3px;
+    right: 2px;
+    width: 5px;
+    height: 5px;
+    background: red;
+    border-radius: 50%;
+}
+
+.current-div {
+    height: fit-content;
+    padding-bottom: 100px;
+}
+
+.body-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgba(107,114,128,0.75);
+}
+
+.body-overlay > .body-overlay-x-x1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.body-overlay-append-div {
+    background: transparent;
+    padding: 0;
+    width: fit-content;
+    /* z-index: 2;
+    border: 10px solid red;
+    width: fit-content;
+    background: blue;
+    transition: visibility 0.3s; */
+}
+
+.setting_tab {
+    position: relative;
+}
+
+.setting_tab > i {
+    cursor: pointer;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.setting_tab > i:hover {
+    opacity: 1;
+}
+
+.setting_tab_relatives {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    margin-top: 47px;
+}
+
+.setting_tab_relatives > div {
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.setting_tab_relatives > div:hover {
+    background: #18397F;
+    opacity: 1;
+}
+
+.setting_tab_relatives > div > a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.setting_tab_relatives > div > a > span {
+    margin-left: 10px;
+}
+
+.setting_tab_relatives.none_block {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+    .flex_section {
+        width: 0;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        background: #fff;
+    }
+
+    .main_full_container {
+        padding: 20px;
+    }
+
+    .current-div {
+        max-width: 100%;
+    }
+
+    .main_full_container div.dashboard_contents {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .open_content_tab {
+        display: none;
+    }
+
+    .setting_tab {
+        display: block;
+    }
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="40px" height="40px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#4245B3;}
+	.st1{fill:url(#SVGID_1_);}
+</style>
+<g>
+	<g>
+		<path id="Path_22826_00000090282314538705704180000013561655337819729085_" class="st0" d="M18.03,29.07h-7.1v-7.1
+			c-0.01-3.01-2.45-5.46-5.46-5.46C2.45,16.52,0.01,18.96,0,21.97v12.56c0.01,3.01,2.45,5.45,5.46,5.46h12.57
+			c3.01-0.01,5.45-2.45,5.46-5.46C23.48,31.52,21.04,29.08,18.03,29.07"/>
+		<path id="Path_22827_00000084492293896787595150000017730031008646994328_" class="st0" d="M40,22.54V6.83
+			c0-1.87-0.77-3.66-2.14-4.95C36.6,0.67,34.92,0,33.17,0H17.46c-3.77,0.01-6.82,3.06-6.83,6.83c0.01,3.77,3.06,6.82,6.83,6.83h8.88
+			v8.88c0.01,3.77,3.06,6.82,6.83,6.83C36.94,29.35,39.99,26.3,40,22.54"/>
+	</g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="32.098" y1="45.3979" x2="9.8596" y2="23.1595" gradientTransform="matrix(1 0 0 -1 0 42)">
+		<stop  offset="0" style="stop-color:#2D2F79"/>
+		<stop  offset="0.1" style="stop-color:#2F317F"/>
+		<stop  offset="0.2" style="stop-color:#313385"/>
+		<stop  offset="0.3" style="stop-color:#33358B"/>
+		<stop  offset="0.4" style="stop-color:#353790"/>
+		<stop  offset="0.5" style="stop-color:#373A96"/>
+		<stop  offset="0.6" style="stop-color:#393C9C"/>
+		<stop  offset="0.7" style="stop-color:#3B3EA1"/>
+		<stop  offset="0.8" style="stop-color:#3D40A7"/>
+		<stop  offset="0.9" style="stop-color:#3F42AD"/>
+		<stop  offset="1" style="stop-color:#4244B3"/>
+	</linearGradient>
+	<path class="st1" d="M33.17,0H17.46c-3.77,0.01-6.82,3.06-6.83,6.83c0.01,3.77,3.06,6.82,6.83,6.83h8.82
+		c2.7-0.84,5.15-2.33,7.15-4.33c2.08-2.07,3.6-4.63,4.42-7.45C36.6,0.68,34.93,0.01,33.19,0H33.17L33.17,0z"/>
+</g>
+</svg>
