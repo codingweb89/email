@@ -1,2 +1,2 @@
 # Email Verifcation Website
-# Have fun exploring the website.
+Have fun exploring the website.
