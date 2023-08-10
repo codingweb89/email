@@ -1,1 +1,2 @@
-# emailverification.github.io
+# Email Verifcation Website
+# Have fun exploring the website.
