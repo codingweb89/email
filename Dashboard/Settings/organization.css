@@ -1,0 +1,11 @@
+
+
+.invite-user-table {
+    border-collapse: collapse;
+    margin-bottom: 50px;
+}
+
+.invite-user-table th {
+    padding: 15px;
+    text-transform: uppercase;
+}

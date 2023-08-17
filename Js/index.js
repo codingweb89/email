@@ -106,6 +106,7 @@ async function makeRequest() {
         fetch(`https://emailvalidation.abstractapi.com/v1/?api_key=bd67ba6f26024c8ebcc3fae160cbabb3&email=${testInput.value}`)
         .then(res => res.json())
         .then(value => {
+            console.log(value)
             const {email, deliverability} = value
             errormessage.style.color = "green"
             errormessage.textContent = "Loaded";
@@ -152,6 +153,7 @@ async function makeRequest() {
 
             
         }).catch(err => {
+            console.log(err)
             errormessage.style.color = "red"
             errormessage.textContent = err.name + ": " + err.message;
         })

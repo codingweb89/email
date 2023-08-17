@@ -1,0 +1,124 @@
+.root-background-hover:hover {
+    background: var(--root-bg);
+}
+
+.root-color-hover:hover a {
+    color: var(--root-blue-color);
+}
+
+.root-blue-color {
+    color: var(--root-blue-color);
+}
+
+
+.current-page {
+    background: var(--root-bg);
+}
+
+.divs-inputs {
+    width: 100%;
+}
+
+.divs-inputs input {
+    width: 90%;
+    padding: 10px;
+    color: var(--text-gray-brand-500);
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin-bottom: 5px;
+}
+
+.divs-inputs button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background: rgba(4, 4, 246, .5);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divs-inputs button:hover {
+    background: rgba(4, 4, 246, .6);
+}
+
+.divs-inputs input[type=password] {
+    letter-spacing: 1px;
+}
+
+.accounts-divs {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.account-section {
+    color: var(--text-gray-brand-500);
+}
+
+.accounts-divs > label {
+    font-weight: bold;
+}
+
+.accounts-divs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    color: var(--text-gray-brand-500);
+    border-radius: 5px;
+}
+
+.accounts-divs input[type=password] {
+    letter-spacing: 1px;
+}
+
+.account-button-div {
+    float: right;
+    margin-top: 10px;
+}
+
+.account-button-div > button {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: var(--text-gray-brand-500);
+    cursor: pointer;
+}
+
+.account-button-div > button:first-child {
+    margin-right: 5px;
+    background: #fff;
+    border: 1px solid lightgrey;
+}
+
+.account-button-div > button:last-child {
+    background: rgba(4, 4, 246, .5);
+    border: none;
+    color: #fff;
+}
+
+.account-button-div > button:last-child:hover {
+    background: rgba(4, 4, 246, .6);
+}
+
+.password-section > div:last-child button {
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.password-section > div:last-child button:first-child {
+    background: #fff;
+    margin-right: 5px;
+    border: 1px solid lightgrey;
+}
+
+.password-section > div:last-child button:last-child {
+    background: rgba(4, 4, 246, .5);
+    color: #fff;
+    border: none;
+}
+
+.password-section span {
+    color: rgba(4, 4, 246, .8);
+}
